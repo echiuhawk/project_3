@@ -176,25 +176,22 @@ ol {
   margin: 30px auto;
 }
 
-@media (min-width: 800px) {
-  #education{
-    margin:auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: dashed red;
+@media (min-width: 1095px) {
+  #name{
+    font-size: 50px;
   }
-  #strong{
-    color: black;
+  .fixed_li{
+    font-size: 20px;
+    color:aqua;
   }
-  #map{
-    background-color: brown;
+  ul {
+    border: .2rem solid purple;
   }
-  #wrapper{
-    background-color: aqua;
-    width: 825px;
-    height: 575px;
+  h1{
+    font-size: 200%;
   }
-  #jcp_title{
-    font-size: 4rem;
+  ol {
+    border: .3rem solid black;
   }
 }
 
@@ -202,16 +199,19 @@ ol {
   #title{
     font-size: 4rem;
   }
-  h1{
-    font-size: 200%;
+  
+  h2{
+    font-size: 20px;
   }
   #email{
     font-family: Arial, Helvetica, sans-serif;
   }
-  #jones{
-    height: 40rem;
+  #education{
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: dashed red;
   }
-  #video{
-    height: 40rem;
+  body {
+    background-color:burlywood;
   }
 }
