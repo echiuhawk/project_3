@@ -175,7 +175,7 @@ ol {
   background-color: #ccc;
   margin: 30px auto;
 }
-
+/*put width at 1095 because my brower started at that width*/
 @media (min-width: 1095px) {
   #name{
     font-size: 50px;
