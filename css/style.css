@@ -170,8 +170,16 @@ ol {
 }
 
 #map {
-  width: 700px;
-  height: 500px;
+  width: 800px;
+  height: 550px;
   background-color: #ccc;
   margin: 30px auto;
+}
+
+@media (min-width) {
+  
+}
+
+@media (min-width) {
+
 }
